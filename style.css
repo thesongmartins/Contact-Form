@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: rgba(0, 128, 0, 0.486);
+  width: 100%;
+  position: relative;
+}
+.wrapper {
+  position: relative;
+  margin: 0 auto;
+  top: 4rem;
+  bottom: 4rem;
+  border-radius: 2rem;
+  max-width: 40rem;
+  /* height: 100vh; */
+  background-color: white;
+  box-shadow: 0, 0, 0, 0.1rem;
+  text-align: center;
+  padding: 1rem;
+}
+h2 {
+  color: rgba(0, 128, 0, 0.486);
+  padding: 2rem;
+  text-transform: uppercase;
+}
+.form {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 30rem;
+}
+label {
+  text-align: start;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+input {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+textarea {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  height: 15rem;
+}
+button {
+  font-family: "Poppins", system-ui;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.8rem;
+  width: 70%;
+  margin-top: 2rem;
+  color: white;
+  letter-spacing: 0.3rem;
+  background-color: rgba(0, 128, 0, 0.486);
+}
+#name {
+  font-weight: 600;
+  font-family: "Poppins", system-ui;
+  letter-spacing: 0.1rem;
+}
+#mail {
+  font-weight: 600;
+  font-family: "Poppins", system-ui;
+  letter-spacing: 0.1rem;
+}
+#message {
+  font-weight: 600;
+  font-family: "Poppins", system-ui;
+  letter-spacing: 0.1rem;
+}
+button:hover {
+  background-color: rgba(0, 128, 0, 0.616);
+}
+
+@media only screen and (min-width: 768px) {
+  .form {
+    margin-left: 3rem;
+  }
+  .wrapper {
+    top: 8rem;
+  }
+}
